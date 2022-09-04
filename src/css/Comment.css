@@ -1,0 +1,86 @@
+.post .comments .each_comment {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.post .comments .each_comment .writer {
+  font-weight: bold;
+  padding-right: 5px;
+}
+.post .comments .each_comment .comment_like .like path {
+  pointer-events: none;
+}
+.post .comments .each_comment .comment_like .like .heart:hover {
+  color: rgb(177, 177, 177);
+}
+.post .comments .each_comment .comment_like .liked {
+  fill: rgb(255, 56, 56);
+  color: rgb(177, 177, 177);
+}
+.post .comments .each_comment .comment_like {
+  position: absolute;
+  right: 0;
+}
+.post .comments .each_comment .writing_content {
+  width: 80%;
+  word-wrap: break-word;
+}
+.post .comments .each_comment .top_comment {
+  display: flex;
+}
+.post_modal .comments .each_comment {
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding: 5px 0;
+  flex-direction: column;
+}
+.post_modal .comments .each_comment .writer {
+  font-weight: bold;
+  padding-right: 5px;
+}
+.post_modal .comments .each_comment .writing_content {
+  width: 80%;
+  word-wrap: break-word;
+}
+.post_modal .comments .each_comment .comment_like .like .heart:hover {
+  color: rgb(177, 177, 177);
+}
+.post_modal .comments .each_comment .comment_like .liked {
+  fill: rgb(255, 56, 56);
+  color: rgb(177, 177, 177);
+}
+.post_modal .comments .each_comment .comment_like {
+  position: absolute;
+  right: 0;
+}
+.post_modal .comments .each_comment .writer_profile {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  border-radius: 50%;
+  border: 0.5px solid rgb(221, 221, 221);
+  overflow: hidden;
+}
+.post_modal .comments .each_comment .writer_profile img {
+  width: 100%;
+  height: auto;
+}
+.post_modal .comments .each_comment .writer .comment_date {
+  font-weight: normal;
+  color: rgb(151, 151, 151);
+}
+.post_modal .comments .each_comment .writing_content .comment_reply {
+  color: rgb(133, 133, 133);
+  font-weight: bold;
+  cursor: pointer;
+}
+.post_modal .comments .each_comment .top_comment {
+  display: flex;
+}
+.post_modal .comments .each_comment .view_replies {
+  cursor: pointer;
+}
+.post_modal .comments .each_comment .hide_replies {
+  cursor: pointer;
+}

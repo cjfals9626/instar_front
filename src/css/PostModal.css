@@ -1,0 +1,225 @@
+.post_modal {
+  background-color: white;
+  display: flex;
+  width: 1220px;
+  z-index: 0;
+  position: relative;
+  border: 0.5px solid rgb(207, 207, 207);
+}
+.post_modal .modal_left {
+  width: 667px;
+  background-color: black;
+}
+.post_modal .modal_left img {
+  width: 100%;
+  height: auto;
+}
+.post_modal .modal_left video {
+  display: block;
+  height: 900px;
+  margin: 0 auto;
+}
+.post_modal .modal_right {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 553px;
+  height: 100%;
+  flex-grow: 1;
+}
+.post_modal .post_header {
+  border-bottom: 0.5px solid rgb(233, 233, 233);
+  border-radius: 10px;
+  background-color: white;
+  height: 56px;
+  display: flex;
+}
+.post_modal .post_header .profile {
+  display: flex;
+  align-items: center;
+  margin: 8px 4px 8px 12px;
+  width: 100%;
+}
+.post_modal .post_header .profile .post_header_profile_img {
+  border: none;
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  cursor: pointer;
+  border: 0.5px solid rgb(221, 221, 221);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.post_modal .post_header .profile .post_header_profile_img .profileImg {
+  width: 32px;
+  height: 32px;
+}
+.post_modal .post_header .profile .post_header_profile_img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.post_modal .post_header .profile .userName {
+  margin-left: 10px;
+  width: auto;
+  display: flex;
+}
+.post_modal .post_header .option_field {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  margin: 8px 8px 8px 8px;
+}
+.post_modal .post_header .option {
+  width: 24px;
+  height: 24px;
+  margin: auto 0;
+  cursor: pointer;
+}
+.post_modal .media_content {
+  border-top: 0.5px solid rgb(233, 233, 233);
+}
+.post_modal .media_content .media .content {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.post_modal .media_content .media_add_task svg {
+  width: 26px;
+  height: 24px;
+  cursor: pointer;
+  padding: 8px;
+}
+.post_modal .media_content .media_add_task svg path {
+  pointer-events: none;
+}
+.post_modal .media_content .media_add_task svg:hover {
+  color: rgb(177, 177, 177);
+}
+
+.post_modal .media_content .media_add_task {
+  position: relative;
+  display: flex;
+}
+.post_modal .media_content .media_add_task .bookMark {
+  position: absolute;
+  right: 0;
+}
+.post_modal .text_content {
+  display: flex;
+  padding: 8px 12px;
+}
+.post_modal .text_content .writing_content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.post_modal .text_content .writer {
+  display: flex;
+  font-weight: bold;
+  padding-right: 5px;
+  padding-left: 12px;
+  align-items: center;
+}
+.post_modal .comments {
+  display: flex;
+  padding-left: 12px;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+.post_modal .modal_right > .comments {
+  padding-right: 12px;
+}
+.post_modal .media_content .media_add_task .liked {
+  fill: rgb(255, 56, 56);
+  color: rgb(177, 177, 177);
+}
+.post_modal .media_add_task .bookMarked {
+  fill: black;
+}
+.post_modal .creation_day {
+  font-size: 8px;
+  margin: 12px;
+  color: rgb(155, 155, 155);
+}
+.post_modal .comment_input_field {
+  border-top: 0.5px solid rgb(233, 233, 233);
+  border-radius: 10px;
+  height: 40px;
+}
+.post_modal .comment_input_field .comment_input_form {
+  display: flex;
+  border-radius: 10px;
+  padding: 8px 8px;
+}
+.post_modal .comment_input_field .comment_input_form .comment_input {
+  display: flex;
+  flex-grow: 1;
+  resize: none;
+  width: 0;
+  outline: none;
+  margin: 0;
+  border: none;
+  height: 18px;
+  border-radius: 10px;
+}
+.post_modal .comment_input_field .comment_input_form .comment_post_button {
+  border: none;
+  background-color: white;
+  color: rgb(139, 209, 255);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  cursor: default;
+}
+.post_modal .comment_input_field .comment_input_form #comment_button_activity {
+  color: rgb(0, 149, 246);
+  cursor: pointer;
+}
+.post_modal .comment_count {
+  padding-left: 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+  cursor: pointer;
+}
+.close_post_modal {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.post_modal .text_content .post_header_profile_img {
+  border: none;
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  cursor: pointer;
+  border: 0.5px solid rgb(221, 221, 221);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.post_modal .text_content .post_header_profile_img .profileImg {
+  width: 32px;
+  height: 32px;
+}
+.post_modal .text_content .post_header_profile_img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}

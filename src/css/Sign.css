@@ -1,0 +1,241 @@
+* {
+}
+.sign_up_field {
+  margin: 0 auto;
+  width: 350px;
+  height: 764px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign_up_field .top {
+  width: 350px;
+  height: 550px;
+  border: 0.5px solid #dcdcdc;
+  margin-top: 30px;
+}
+.sign_up_field .top .logo {
+  margin: 0 auto;
+  padding: 30px 0 15px 0;
+}
+
+.sign_up_field .top .logo {
+  width: 175px;
+  height: 51px;
+}
+.sign_up_field .top .introduction .content {
+  text-align: center;
+  margin: 0 40px 10px 40px;
+  font-size: 17px;
+  color: #979797;
+}
+.sign_up_field .top .facebook_login .button {
+  width: 260px;
+  height: 30px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background-color: #0095f6;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.sign_up_field .top .facebook_login .button .content {
+  margin: 10px;
+}
+.sign_up_field .top .facebook_login .button .facebook_logo {
+  height: 16px;
+  width: 16px;
+  background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+  background-repeat: no-repeat;
+  background-position: -414px -300px;
+}
+
+.sign_up_field .top .login_sign_horizon {
+  width: 268px;
+  margin: 20px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.sign_up_field .top .login_sign_horizon hr {
+  width: 100%;
+  height: 0.2px;
+  background-color: #9b9b9b;
+  position: absolute;
+  z-index: 1;
+}
+.sign_up_field .top .login_sign_horizon .or {
+  color: #9b9b9b;
+  background-color: white;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
+.sign_up_field .bottom .go_login_page {
+  width: 350px;
+  height: 68px;
+  border: 0.5px solid #dcdcdc;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.sign_up_field .bottom .go_login_page .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+}
+.sign_up_field .bottom .go_login_page .content .go_login_page_button {
+  margin: 6px;
+  color: #0095f6;
+  text-decoration: none;
+}
+
+.sign_input_field {
+  margin-top: 30px;
+}
+.sign_input_field .userid_password {
+  display: flex;
+  flex-direction: column;
+}
+.sign_input_field .userid_password > div {
+  width: 268px;
+  height: 38px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: flex;
+}
+.sign_input_field .userid_password .introduce {
+  width: 268px;
+  height: 48px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 12px;
+  color: #979797;
+}
+.sign_input_field .userid_password .introduce > a {
+  margin: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #979797;
+}
+.sign_input_field .userid_password .input_kind {
+  transition-property: padding-top, font-size;
+  transition-duration: 0.2s;
+  font-size: 12px;
+  width: 250px;
+  height: 36px;
+  z-index: 2;
+  padding-left: 6px;
+  position: absolute;
+  pointer-events: none;
+  color: #9b9b9b;
+  padding-top: 12px;
+}
+.sign_input_field .userid_password .ready_to_input {
+  transition-property: padding-top, font-size;
+  transition-duration: 0.2s;
+  font-size: 6px;
+  padding-top: 2px;
+}
+
+.sign_input_field .userid_password .userid_password_input_field {
+  border: 0.5px solid #dcdcdc;
+  border-radius: 3px;
+  outline-color: #c9c9c9;
+  outline-width: 0;
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.sign_input_field .userid_password #inputting {
+  padding-top: 19px;
+  height: 20px;
+}
+
+.sign_input_field .sign_button_field {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.sign_input_field .sign_button_field .sign_button {
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 149, 246, 0.3);
+  border: 0;
+  border-radius: 5px;
+  width: 268px;
+  height: 30px;
+}
+.sign_input_field .sign_button_field #sign_activity {
+  background-color: #0095f6;
+  cursor: pointer;
+}
+.sign_input_field .userid_password .passwordfield {
+  position: relative;
+}
+
+.sign_input_field .userid_password .passwordfield .password_show {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  font-size: 13px;
+  font-weight: bold;
+  color: #5c5c5c;
+  right: 10px;
+  top: 10px;
+}
+.sign_input_field .userid_password .passwordfield .show_activity {
+  display: block;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+.sign_input_field .userid_password > div {
+  position: relative;
+}
+.input_valid {
+  position: absolute;
+  z-index: 3;
+  background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+  background-repeat: no-repeat;
+  background-position: -225px -333px;
+  height: 22px;
+  width: 22px;
+  top: 8px;
+  bottom: 8px;
+  right: 10px;
+}
+.input_invalid {
+  z-index: 3;
+  position: absolute;
+  background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+  background-repeat: no-repeat;
+  background-position: -249px -333px;
+  height: 22px;
+  width: 22px;
+  top: 8px;
+  bottom: 8px;
+  right: 10px;
+}
+
+.passwordfield .input_valid {
+  right: 50px;
+}
+.passwordfield .input_invalid {
+  right: 50px;
+}

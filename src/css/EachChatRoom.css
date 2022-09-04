@@ -1,0 +1,14 @@
+.each_room {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+}
+.each_room .room_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.each_room:hover {
+  background-color: rgb(238, 238, 238);
+  cursor: pointer;
+}

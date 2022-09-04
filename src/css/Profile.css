@@ -1,0 +1,208 @@
+.profile_page {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.profile_page .top {
+  display: flex;
+  width: 100%;
+  border-bottom: 0.5px solid rgb(202, 202, 202);
+  padding-bottom: 40px;
+}
+.change_profileImg {
+  display: flex;
+  flex-direction: column;
+}
+.change_profileImg .changeProfileTitle {
+  font-weight: bold;
+  padding: 20px 100px;
+}
+.change_profileImg button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  border-top: 0.5px solid rgb(218, 218, 218);
+  padding: 20px;
+}
+.change_profileImg .upload_img {
+  color: rgb(0, 149, 246);
+}
+.change_profileImg .to_default_img {
+  color: red;
+}
+.profile_page .top .profile_img {
+  display: flex;
+}
+.profile_page .top .profile_img .change_profile {
+  border: none;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  cursor: pointer;
+  border: 0.5px solid rgb(221, 221, 221);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.profile_page .top .profile_img .change_profile img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 100%;
+  margin-left: -200%;
+}
+.profile_page .top .topContent {
+  display: flex;
+  padding: 0 50px;
+  flex-direction: column;
+}
+.profile_page .top .topContent .top_of_top {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+.profile_page .top .topContent .top_of_top .userName {
+  display: flex;
+  margin: 0 10px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.profile_page .top .topContent .top_of_top .settings {
+  display: flex;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 3px;
+  width: 90px;
+  height: 30px;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.profile_page .top .topContent .top_of_top .settings .settings_button {
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+}
+.profile_page .top .topContent .top_of_top .profile_options .option_button {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  padding: 8px;
+}
+.profile_page .top .topContent .top_of_top .other_user_profile {
+  display: flex;
+}
+.profile_page .top .topContent .top_of_top .other_user_profile button {
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.profile_page .top .topContent .top_of_top .other_user_profile .send_dm_button {
+  background-color: white;
+  border-radius: 5px;
+  border: 0.5px solid rgb(196, 196, 196);
+}
+.profile_page .top .topContent .top_of_top .other_user_profile .follow_button {
+  background-color: rgb(0, 149, 246);
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.profile_page
+  .top
+  .topContent
+  .top_of_top
+  .other_user_profile
+  .follow_button
+  div {
+  padding: 0 15px;
+  pointer-events: none;
+}
+.profile_page
+  .top
+  .topContent
+  .top_of_top
+  .other_user_profile
+  .followed_button {
+  border-radius: 5px;
+  border: 0.5px solid rgb(196, 196, 196);
+  background-color: white;
+}
+.top_of_top .other_user_profile .followed_button .followed_img {
+  padding: 0 20px;
+}
+.profile_page .top .topContent .top_of_mid {
+  display: flex;
+}
+.profile_page .top .topContent .top_of_mid div {
+  margin: 10px;
+  padding: 10px 10px 10px 0;
+}
+.profile_page .top .topContent .top_of_bot {
+  display: flex;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.profile_page .bottom {
+  display: flex;
+  justify-content: center;
+}
+.profile_page .bottom .children_page {
+  display: flex;
+}
+.profile_page .bottom .children_page a {
+  cursor: pointer;
+  padding: 15px 0;
+  margin: 0 30px;
+}
+.profile_page .bottom .children_page #clicked {
+  border-top: 1px solid black;
+}
+.unfollow_modal {
+  display: flex;
+  flex-direction: column;
+}
+.unfollow_modal .unfollow_button {
+  color: red;
+}
+.unfollow_modal button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  border-top: 0.5px solid rgb(218, 218, 218);
+  padding: 20px 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.followerModal {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 234px;
+  font-weight: bold;
+  overflow: auto;
+}
+.followerModal .followerTitle {
+  display: flex;
+  justify-content: center;
+  padding: 10px 150px;
+  border-bottom: 0.5px solid rgb(218, 217, 217);
+}
+.followingModal {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 234px;
+  font-weight: bold;
+  overflow: auto;
+}
+.followingModal .followingTitle {
+  display: flex;
+  justify-content: center;
+  padding: 10px 150px;
+  border-bottom: 0.5px solid rgb(218, 217, 217);
+}

@@ -1,0 +1,51 @@
+.search_each_row {
+  display: flex;
+  position: relative;
+}
+.earch_member_profile {
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+  flex-grow: 1;
+  text-decoration: none;
+}
+#earch_member_profile:hover {
+  background-color: rgb(230, 230, 230);
+}
+.earch_member_profile .profile_img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 0.5px solid rgb(221, 221, 221);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.earch_member_profile .profile_img img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 100%;
+  margin-left: -200%;
+}
+.earch_member_profile .text_content {
+  padding-left: 5px;
+}
+.earch_member_profile .text_content .user_name {
+  color: black;
+  font-weight: bold;
+}
+.earch_member_profile .text_content .user_fullname {
+  color: rgb(163, 163, 163);
+}
+.each_clear {
+  right: 0;
+  padding: 5px;
+  position: absolute;
+  cursor: pointer;
+  align-items: center;
+}
+.each_clear svg {
+  pointer-events: none;
+}

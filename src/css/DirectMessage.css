@@ -1,0 +1,114 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.dm_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 930px;
+  height: 90%;
+  border: 0.5px solid rgb(182, 182, 182);
+}
+.dm_container .chating_field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+}
+.dm_container .chating_field .chatRoom_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(173, 173, 173);
+  height: 41px;
+
+  width: 100%;
+  position: relative;
+}
+.dm_container .chating_field .chatRoom_name .deleteChatRoom {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.dm_container .chating_field .chatRoom_name .deleteChatRoom svg {
+  pointer-events: none;
+}
+.dm_container .chatRooms {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  border-right: 0.5px solid rgb(182, 182, 182);
+}
+.dm_container .chatRooms .chat_userName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 100%;
+  border-bottom: 0.5px solid rgb(182, 182, 182);
+  position: relative;
+}
+.dm_container .chatRooms .chat_userName .select_members {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+.dm_container .chatRooms .my_rooms {
+  display: flex;
+  flex-direction: column;
+}
+.dm_container .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95%;
+  width: 100%;
+}
+.initialScreen {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.initialScreen > div {
+  display: flex;
+  justify-content: center;
+}
+.initialScreen .newChatRoom_button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.initialScreen .newChatRoom_button .button_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(66, 167, 255);
+  width: 120px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .outerContainer {
+    height: 100%;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}

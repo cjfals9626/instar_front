@@ -1,0 +1,189 @@
+.post {
+  border-radius: 10px;
+  border: 1px solid rgb(197, 197, 197);
+  background-color: white;
+  width: 470px;
+  z-index: 0;
+  position: relative;
+  margin-bottom: 50px;
+}
+.post .post_header {
+  border-bottom: 0.5px solid rgb(233, 233, 233);
+  border-radius: 10px;
+  background-color: white;
+  height: 56px;
+  display: flex;
+}
+.post .post_header .profile {
+  display: flex;
+  align-items: center;
+  margin: 8px 4px 8px 12px;
+  width: 100%;
+}
+.post .post_header .profile .post_header_profile_img {
+  width: 32px;
+  height: 32px;
+}
+.post .post_header .profile .post_header_profile_img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.post .post_header .profile .userName {
+  margin-left: 10px;
+  width: auto;
+  display: flex;
+}
+.post .post_header .option_field {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  margin: 8px 8px 8px 8px;
+}
+.post .post_header .option {
+  width: 24px;
+  height: 24px;
+  margin: auto 0;
+  cursor: pointer;
+}
+.post .media_content .media .content {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.post .media_content .media .video_content {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+}
+.post .media_content .media_add_task svg {
+  width: 26px;
+  height: 24px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.media_content .media_add_task svg path {
+  pointer-events: none;
+}
+.media_content .media_add_task svg:hover {
+  color: rgb(177, 177, 177);
+}
+
+.post .media_content .media_add_task {
+  position: relative;
+  display: flex;
+}
+.post .media_content .media_add_task .bookMark {
+  position: absolute;
+  right: 0;
+}
+.post .media_content .media_add_task .bookMark polygon {
+  pointer-events: none;
+}
+.post .text_content {
+  display: flex;
+  padding: 0 12px 8px 12px;
+}
+.post .text_content .writer {
+  font-weight: bold;
+  padding-right: 5px;
+}
+.post .text_content .writing_content_front {
+  display: block;
+  word-break: break-all;
+}
+.post .text_content .writing_content_all {
+  width: 100%;
+  display: none;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.post .text_content .writing_content_front .more_text_content {
+  color: rgb(131, 131, 131);
+  margin-left: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.post .text_content .writing_content {
+  width: 100%;
+  display: block;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.post .comments {
+  display: flex;
+  padding: 0 12px;
+  flex-direction: column;
+}
+.media_content .media_add_task .liked {
+  fill: rgb(255, 56, 56);
+  color: rgb(177, 177, 177);
+}
+.media_add_task .bookMarked {
+  fill: black;
+}
+.post .creation_day {
+  font-size: 8px;
+  margin: 12px;
+  color: rgb(155, 155, 155);
+}
+.post .comment_input_field {
+  border-top: 0.5px solid rgb(233, 233, 233);
+  border-radius: 10px;
+  height: 40px;
+}
+.post .comment_input_field .comment_input_form {
+  display: flex;
+  border-radius: 10px;
+  padding: 10px 5px 0 5px;
+}
+.post .comment_input_field .comment_input_form .comment_input {
+  display: flex;
+  flex-grow: 1;
+  resize: none;
+  width: 0;
+  outline: none;
+  margin: 0;
+  border: none;
+  height: 18px;
+  border-radius: 10px;
+}
+.post .comment_input_field .comment_input_form .comment_post_button {
+  border: none;
+  background-color: white;
+  color: rgb(139, 209, 255);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  cursor: default;
+}
+.post .comment_input_field .comment_input_form #comment_button_activity {
+  color: rgb(0, 149, 246);
+  cursor: pointer;
+}
+.post .comment_count {
+  padding-left: 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: rgb(150, 150, 150);
+  cursor: pointer;
+}
+.close_post_modal {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.slick-arrow {
+  z-index: 2;
+}
+.slick-prev {
+  left: 10px !important;
+}
+.slick-next {
+  right: 10px !important;
+}

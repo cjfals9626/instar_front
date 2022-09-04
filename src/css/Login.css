@@ -1,0 +1,266 @@
+.login {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+.login_view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_left {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+  background-position: -46px 0;
+  background-size: 468.32px 634.15px;
+  -webkit-flex-basis: 380.32px;
+  -ms-flex-preferred-size: 380.32px;
+  flex-basis: 380.32px;
+  height: 581.15px;
+  margin-bottom: 12px;
+  margin-right: 32px;
+}
+.login_left .phone {
+  position: relative;
+}
+.login_left .phone .each_view {
+  /*display: none;*/
+  transition-property: opacity;
+  transition-duration: 3s;
+  opacity: 0;
+  position: absolute;
+  left: 113px;
+  top: 25px;
+}
+.login_left .phone .visible {
+  transition-property: opacity;
+  transition-duration: 3s;
+  opacity: 1;
+  /*display: block;*/
+}
+.login .login_view .login_right {
+  height: 580px;
+}
+.login .login_view .login_right .userid_password_inputfield {
+  width: 350px;
+  height: 396px;
+  border: 0.5px solid #dcdcdc;
+}
+.login .login_view .login_right .userid_password_inputfield .logo {
+  width: 175px;
+  height: 51px;
+  margin: 36px auto;
+}
+.login_view .login_right .userid_password_inputfield .userid_password {
+  display: flex;
+  flex-direction: column;
+}
+.login_view
+  .login_right
+  .userid_password_inputfield
+  .userid_password
+  .useridfield,
+.passwordfield {
+  width: 268px;
+  height: 38px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: flex;
+}
+.userid_password_inputfield .userid_password .input_kind {
+  transition-property: padding-top, font-size;
+  transition-duration: 0.2s;
+  font-size: 12px;
+  width: 250px;
+  height: 36px;
+  z-index: 2;
+  padding-left: 6px;
+  position: absolute;
+  pointer-events: none;
+  color: #9b9b9b;
+  padding-top: 12px;
+}
+.userid_password_inputfield .userid_password .ready_to_input {
+  transition-property: padding-top, font-size;
+  transition-duration: 0.2s;
+  font-size: 6px;
+  padding-top: 2px;
+}
+
+.login
+  .login_view
+  .login_right
+  .userid_password_inputfield
+  .userid_password
+  .userid_password_input_field {
+  border: 0.5px solid #dcdcdc;
+  border-radius: 3px;
+  outline-color: #c9c9c9;
+  outline-width: 0;
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.userid_password_inputfield .userid_password #inputting {
+  padding-top: 19px;
+  height: 20px;
+}
+
+.login
+  .login_view
+  .login_right
+  .userid_password_inputfield
+  .login_button_field {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.login
+  .login_view
+  .login_right
+  .userid_password_inputfield
+  .login_button_field
+  .login_button {
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 149, 246, 0.3);
+  border: 0;
+  border-radius: 5px;
+  width: 268px;
+  height: 30px;
+}
+.login
+  .login_view
+  .login_right
+  .userid_password_inputfield
+  .login_button_field
+  #login_activity {
+  cursor: pointer;
+
+  background-color: #0095f6;
+}
+.userid_password .passwordfield {
+  position: relative;
+}
+
+.userid_password .passwordfield .password_show {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  font-size: 13px;
+  font-weight: bold;
+  color: #5c5c5c;
+  right: 10px;
+  top: 10px;
+}
+.userid_password .passwordfield .show_activity {
+  display: block;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+.login_right .userid_password_inputfield .login_sign_horizon {
+  width: 268px;
+  margin: 20px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.login_right .userid_password_inputfield .login_sign_horizon hr {
+  width: 100%;
+  height: 0.2px;
+  background-color: #9b9b9b;
+  position: absolute;
+  z-index: 1;
+}
+.login_right .userid_password_inputfield .login_sign_horizon .or {
+  color: #9b9b9b;
+  background-color: white;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+.login_right .facebook_login {
+  display: flex;
+  width: 268px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.login_right .facebook_login .facebook_login_button {
+  width: 100%;
+  border: none;
+  background-color: white;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.login_right .facebook_login .facebook_login_button .facebook_logo {
+  height: 16px;
+  width: 16px;
+  background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png);
+  background-repeat: no-repeat;
+  background-position: -414px -259px;
+}
+.login_right .facebook_login .facebook_login_button .facebook_login_content {
+  margin: 0 10px;
+  color: #004675;
+  font-weight: bold;
+}
+
+.login .login_view .login_right .userid_password_inputfield .forget_password {
+  display: flex;
+  justify-content: center;
+}
+.login
+  .login_view
+  .login_right
+  .userid_password_inputfield
+  .forget_password
+  > a {
+  font-size: 12px;
+  color: #004675;
+}
+.login_view .login_right .sign_field {
+  border: 0.5px solid #dcdcdc;
+  margin-top: 10px;
+}
+.login_view .login_right .sign_field .to_sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  height: 63px;
+}
+.login_view .login_right .sign_field .to_sign .sign_button {
+  margin: 6px;
+  font-weight: bold;
+  color: #0095f6;
+  text-decoration: none;
+}
+.download_app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.download_app .content {
+  margin: 10px auto;
+}
+.download_app .store_link {
+  margin: 0 auto;
+}
+.download_app .store_link img {
+  width: 136px;
+  height: 40px;
+  padding: 5px;
+}

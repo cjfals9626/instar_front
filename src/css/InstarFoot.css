@@ -1,0 +1,16 @@
+* {
+}
+.foot_layout {
+  margin-top: 100px;
+}
+.foot_layout .foot_contain {
+  text-align: center;
+  color: #9b9b9b;
+  font-size: 12px;
+}
+.foot_layout .foot_contain span {
+  margin: 20px 10px;
+}
+.foot_layout .foot_contain .second_line {
+  margin: 5px 0 15px 0;
+}

@@ -1,0 +1,14 @@
+#root {
+  display: flex;
+  flex-direction: column;
+}
+.ReactModalPortal .ReactModal__Overlay {
+  background-color: rgba(85, 85, 85, 0.75) !important;
+  z-index: 309;
+}
+.ReactModalPortal .ReactModal__Overlay .ReactModal__Content {
+  padding: 0 !important;
+}
+.ReactModalPortal {
+  z-index: 310;
+}

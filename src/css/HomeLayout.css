@@ -1,0 +1,308 @@
+* {
+}
+
+.homelayout {
+  border-bottom: 0.5px solid #dcdcdc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 210;
+  background-color: white;
+}
+.real_content {
+  margin: 50px 0;
+}
+.homelayout .header {
+  /* width: 975px; */
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.real_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  top: 60px;
+  position: relative;
+}
+.homelayout .header .elements .logo_field {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+}
+.homelayout .header .elements .logo {
+  width: 103px;
+  height: 29px;
+  background-position: -193px -568px;
+  background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yw/r/Y-wlH5xs9WH.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.homelayout .header .elements {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.homelayout .header .elements .search_field {
+  border: 0;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+  display: flex;
+  position: relative;
+  width: 268px;
+  height: 36px;
+  cursor: text;
+  z-index: 2;
+}
+.homelayout .header .elements .search_field .search {
+  border: 0;
+  background-color: #f3f3f3;
+  padding: 3px 16px;
+  outline-width: 0;
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.homelayout .header .elements .search_field .search_water_mark {
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  padding: 3px 16px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+.homelayout .header .elements .search_field .magnifier {
+  height: 16px;
+  width: 16px;
+  background-image: url(../../public/instar_Magnifier.png);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  margin-right: 10px;
+}
+.homelayout .header .elements .search_field .content {
+  color: #afafaf;
+}
+.homelayout .header .elements .search_field .all_clear {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/bve3a0HeZc8.png);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: -318px -333px;
+  height: 20px;
+  width: 20px;
+  right: 10px;
+  top: 8px;
+}
+
+.searchList {
+  height: 0;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+.searchList .result {
+  width: 375px;
+  height: 362px;
+  border: 0px solid black;
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px rgb(197, 197, 197);
+  margin-top: 50px;
+  overflow: auto;
+}
+.searchList .result .search_members {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.searchList .result .search_members .no_searched {
+  text-align: center;
+  flex-grow: 1;
+  padding: 40% 0;
+}
+.searchList .result .search_members .top_content {
+  position: relative;
+  display: flex;
+}
+.searchList .result .search_members .clear_members {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: rgb(0, 149, 246);
+}
+
+.homelayout .header .elements .side_menu {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  justify-content: center;
+}
+.homelayout .header .elements .side_menu .menus {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.homelayout .header .elements .side_menu .menus div {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  flex-grow: 1;
+}
+.homelayout .header .elements .side_menu .menus a {
+  cursor: pointer;
+}
+.homelayout .header .elements .side_menu .menus .home .home_icon {
+  background-image: url(../../public/instarIcon/home_inactive.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.homelayout .header .elements .side_menu .menus .home .active {
+  background-image: url(../../public/instarIcon/home_active.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+
+.homelayout .header .elements .side_menu .menus .instarDM .instarDM_icon {
+  background-image: url(../../public/instarIcon/dm_inactive.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.homelayout .header .elements .side_menu .menus .instarDM .active {
+  background-image: url(../../public/instarIcon/dm_active.png);
+  height: 24px;
+  width: 24px;
+  background-repeat: no-repeat;
+}
+
+.header .elements .side_menu .menus .recommendPost .recommendPost_icon {
+  background-image: url(../../public/instarIcon/recommand_inactive.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.header .elements .side_menu .menus .recommendPost .active {
+  background-image: url(../../public/instarIcon/recommand_active.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+
+.header .elements .side_menu .menus .newPost .newPost_icon {
+  background-image: url(../../public/instarIcon/newPost_inactive.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.header .elements .side_menu .menus .newPost .active {
+  background-image: url(../../public/instarIcon/newPost_active.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+
+.header .elements .side_menu .menus .recentActivity .recentActivity_icon {
+  background-image: url(../../public/instarIcon/recent_inactive.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.header .elements .side_menu .menus .recentActivity .active {
+  background-image: url(../../public/instarIcon/recent_active.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.header .elements .side_menu .menus .invisible {
+  display: none;
+}
+
+.homelayout .header .elements .side_menu .menus .profile .profile_img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.homelayout .header .elements .side_menu .menus .profile > .active {
+  border: 1px solid black;
+  height: 24px;
+
+  border-radius: 50%;
+}
+#profile_modal {
+  width: 230px;
+  height: 0;
+  justify-content: center;
+  position: relative;
+  display: none;
+}
+#profile_modal .profile_options {
+  position: absolute;
+
+  flex-direction: column;
+  width: 230px;
+  height: 198px;
+  border: 0px solid black;
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px rgb(197, 197, 197);
+  margin-top: 40px;
+}
+#profile_modal .profile_options div {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+#profile_modal .profile_options div:hover {
+  background-color: #f0f0f0;
+}
+#profile_modal .profile_options a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+#profile_modal .profile_options a:hover {
+  background-color: #f0f0f0;
+}
+#profile_modal .profile_options a:visited {
+  color: black;
+}
+#profile_modal .profile_options .logout {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  border-top: 0.5px solid rgb(218, 218, 218);
+}
+#profile_modal .profile_options .logout:hover {
+  background-color: #f0f0f0;
+}
