@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# 인스타그램 클론(Express, MongoDB 학습을 위한)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### 1. 기간
 
-In the project directory, you can run:
+2022. 07 ~ 2022. 08
 
-### `npm start`
+### 2. 개발 개요
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Express.js, MongoDB + socket 학습을 위한 토이 프로젝트
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. 개발 인원
 
-### `npm test`
+1명
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. 담당 파트
 
-### `npm run build`
+로그인, 회원가입, 채팅, 게시글, 댓글, 좋아요, 팔로우, 검색, 검색 기록 등등
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+모든 기능 프론트 & 백엔드
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 5. 대표 이미지
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![s1](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/028713ad-3a1b-4a3b-9655-f1f04a6de273)
+![s2](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/f08ef6cd-f6d7-414f-a821-bcec01eed6b2) | ![s3](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/03ccf16b-a1d3-401d-879a-ba60a3e33118)
+---|---|
+![s4](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/f252e3ff-2882-4db9-940a-f29f252bf0f5) | ![s5](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/27dc932d-067f-4699-a0f8-e18b143c4518)
+---|---|
+![s6](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/ff07a299-6473-4a88-8366-f4bfad970ac5) | ![s7](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/7f405182-d008-4ec6-93af-7d3df5c4019c)
+---|---|
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 6. 개발 환경
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Front : JavaScript [React], CSS
+2. Back : JavaScript [Express]
+3. DB : MongoDB
+4. 형상 관리 : Github
+5. IDE : Visual Studio Code
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 7. 데이터베이스 설계
+![s8](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/4b49ef6f-9e36-4d92-83ce-550cbd7a6532)
